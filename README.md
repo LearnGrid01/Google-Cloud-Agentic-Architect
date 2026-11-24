@@ -63,17 +63,24 @@ In Chapter 09, the cleanup cell of Lab 09-01 deletes the Cloud Run service; if y
 
 **Where to Run the Notebooks**
 
+
 •	Google Colab (recommended): Go to colab.research.google.com, choose File > Upload notebook, and select the notebook. When you run the authentication cell, sign in with the Google account that owns your lab project.
 
+
 •	Jupyter, JupyterLab, or VS Code on your own computer: Install Python 3.10 or later and the Google Cloud CLI, run gcloud auth application-default login once, and open the notebook.
+
 
 •	Colab Enterprise or Vertex AI Workbench: Upload the notebook to your environment in the lab project.
 
 
 **Tips**
+
+
 •	Run the cells in order, from top to bottom, with Shift+Enter.
 
+
 •	Enter your project ID in the configuration cell of each notebook. If you set the GOOGLE_CLOUD_PROJECT and GEMINI_MODEL environment variables (Appendix C), the notebooks use them automatically.
+
 
 •	Gemini model IDs change over time. If a cell reports that the model is not found, set MODEL to a current Gemini Flash model ID.
 •	Run the Clean Up cell at the end of each lab so that you are not charged for resources that you no longer need.
